@@ -731,10 +731,9 @@ textarea.input {
 }
 
 .no-webp .first{
-  background: url("../img/bg.jpg") 0 0/cover no-repeat; }
+  background: url("../img/bg.jpg") 0 0/cover fixed no-repeat; }
 
 .first {
-  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -4132,7 +4131,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-.webp .first{ background: url(../img/bg.webp) 0 0/cover no-repeat; }
+.webp .first{ background: url(../img/bg.webp) 0 0/cover fixed no-repeat; }
 
 .webp .first .contacts-first__adress::before{ background-image: url(../img/first/place.webp); }
 
